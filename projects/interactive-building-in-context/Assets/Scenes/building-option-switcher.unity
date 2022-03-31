@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4514116, g: 0.50055826, b: 0.57047325, a: 1}
+  m_IndirectSpecularColor: {r: 0.451411, g: 0.50055754, b: 0.57047224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -185,9 +185,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e5900c8d418694da8fe5f7ab185910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Building A
-  age: 0
-  height: 0
+  id: Building 1
+  age: 12
+  height: 777
 --- !u!20 &368710997 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2056488, guid: 407bd5cbe8c43334bb1b25c0f3826974, type: 3}
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e5900c8d418694da8fe5f7ab185910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: b
-  age: 0
-  height: 0
+  id: building 2
+  age: 1
+  height: 2
 --- !u!1 &1157145186
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,9 +995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e5900c8d418694da8fe5f7ab185910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: c
-  age: 0
-  height: 0
+  id: Building c
+  age: 99
+  height: 12
 --- !u!65 &1748985991
 BoxCollider:
   m_ObjectHideFlags: 0

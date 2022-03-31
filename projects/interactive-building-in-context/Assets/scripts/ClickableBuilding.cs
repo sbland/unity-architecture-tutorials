@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ClickableBuilding : MonoBehaviour
 {
-    public string name;
+    public string id;
     public int age;
     public float height;
     
