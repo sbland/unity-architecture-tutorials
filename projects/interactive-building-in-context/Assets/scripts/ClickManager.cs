@@ -54,9 +54,8 @@ public class ClickManager : MonoBehaviour
         // Check if mouse button is clicked
         if (Input.GetMouseButtonDown(0))
         {
-            // Debug.Log("Mouse Button Clicked");
             ClickableBuilding building = getClickedOnBuilding();
-            
+
             if (building != null)
             {
                 // Do something

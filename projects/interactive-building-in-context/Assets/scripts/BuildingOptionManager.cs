@@ -42,7 +42,7 @@ public class BuildingOptionManager : MonoBehaviour
 
                 if (raycastHit.collider.gameObject.name == "Button")
                 {
-                    Debug.Log("You clicked the building");
+                    Debug.Log("You clicked the button");
                     if (currentSelection < buildingOptions.Length - 1)
                     {
                         currentSelection += 1;
