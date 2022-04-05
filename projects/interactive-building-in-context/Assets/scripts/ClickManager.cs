@@ -31,7 +31,7 @@ public class ClickManager : MonoBehaviour
 
             if (building != null)
             {
-                Debug.Log($"You clicked a clickable building called {building.name} with age {building.age}");
+                Debug.Log($"You clicked a clickable building called {building.id} with age {building.age}");
                 return building;
             }
         }
@@ -43,8 +43,9 @@ public class ClickManager : MonoBehaviour
         PopupManager popup = FindObjectOfType<PopupManager>();
         popup.moveToLocation(building.transform);
         popup.setText(new string[] {
-            $"Name: {building.name}",
+            $"Name: {building.id}",
             $"Age: {building.age}",
+            $"Height: {building.height}",
         });
     }
 
